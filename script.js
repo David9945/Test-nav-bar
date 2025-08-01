@@ -1,7 +1,7 @@
-const burger = document.getElementById('burger');
-const navLinks = document.querySelector('.nav-links');
+const burger = document.getElementById('burger')
+const nav = document.getElementById('nav')
 
 burger.addEventListener("click", () => {
-    navLinks.classList.toggle("mobile-nav");
-    burger.textContent = burger.textContent === "☰" ? "X" : "☰"; // This is an if statement in a single line
+    nav.classList.toggle('clicked');
+    burger.textContent = burger.textContent === '☰' ? '✖' : '☰'; // '?' means yes and ':' means no
 })
