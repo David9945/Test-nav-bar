@@ -26,7 +26,7 @@ nav {
     position: absolute;
     left: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .nav {
@@ -56,6 +56,8 @@ nav {
 
     .burger {
         display: block;
+        color: #fff;
+        font-size: 20px;
     }
 }
 
